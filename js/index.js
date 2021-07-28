@@ -20,6 +20,7 @@ function addTask(e) {
 
   const btnRm = document.createElement("input");
   btnRm.setAttribute("type", "button");
+  btnRm.setAttribute("class", "btn-rm");
   btnRm.setAttribute("value", "REMOVE");
 
   listTasks.appendChild(itemTask);
