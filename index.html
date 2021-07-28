@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Task list Vanillla JS</title>
+  </head>
+  <body>
+    <header>
+      <div class="title container">
+        <a href="/">Vanilla JS TODO</a>
+      </div>
+      <div class="nav-bar container">
+        <div class="nav-link"><a href="/about">About</a></div>
+        <div class="nav-link"><a href="/contact">Contact</a></div>
+      </div>
+    </header>
+
+    <form class="form container">
+      <input type="text" name="input-task" id="input-task" />
+      <input type="submit" name="btn-add" id="btn-add" value="ADD" />
+    </form>
+    <div class="list-tasks container" style="display: none">
+      <ul></ul>
+    </div>
+
+    <footer>
+      <div class="foot container">&copy; Rodrigo Jara 2021</div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>

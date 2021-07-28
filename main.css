@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: medium;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-bar {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.list-tasks.container {
+  display: flex;
+  flex-direction: column;
+}
+
+li.container {
+  display: flex;
+  justify-content: space-between;
+}
