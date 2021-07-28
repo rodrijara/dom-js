@@ -27,9 +27,16 @@ body {
   justify-content: space-around;
 }
 
+form {
+  position: relative;
+}
+
 .list-tasks.container {
   display: flex;
   flex-direction: column;
+  position: relative;
+  bottom: 70px;
+  top: 5px;
 }
 
 li.container {
